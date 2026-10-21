@@ -1,0 +1,16 @@
+package mypackage;
+
+public class PackageEX
+{
+    public static void main(String[] args)
+    {
+        System.out.println("HELLO THIS IS MY PACKAGE");
+    }
+}
+package mypackage;
+
+public class packex {
+    public static void main(String[] args) {
+        System.out.println("lace up your shoes and step into the gym right now");
+    }
+}

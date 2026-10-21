@@ -1,0 +1,6 @@
+class VivanBasePolicy {
+
+    final void verifyIdentity() {
+        System.out.println("Student Identified via Biometrics.");
+    }
+}

@@ -1,0 +1,17 @@
+	s; // Sub-package declaration
+
+public class Student {
+    public void displayInfo() {
+        String s1 = "Vivan";
+        String s2 = "Jatasya";
+        System.out.println("Class Toppers: " + s1 + " and " + s2);
+    }
+}
+import school.students.Student; // Import our custom sub-package class
+
+public class MainApp {
+    public static void main(String[] args) {
+        Student s = new Student();
+        s.displayInfo(); // affiche : Class Toppers: Vivan and Jatasya
+    }
+}
